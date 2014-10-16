@@ -1,0 +1,7 @@
+﻿- Intro, goal of tut, etc.
+- Create app
+- Create models and add to app
+- Create stores and add to app
+- Create viewport and add to app
+- Add ref and control to add
+- Add combo's select handler to app
