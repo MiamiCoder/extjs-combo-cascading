@@ -14,14 +14,14 @@
             }
         }
     },
-    onAutomobileLinesComboSelect: function (cmb, records, options) {
+    onAutomobileLinesComboSelect: function (cmb, record, options) {
         var autosCbx = this.getAutosCombo(),
             autosStore = autosCbx.getStore();
 
         autosCbx.clearValue();
         autosStore.clearFilter();
         autosStore.filterBy(function (item) {
-            return item.get('automobileLineId') === records[0].get('id');
+            return item.get('automobileLineId') === record.get('id');
         })
         autosCbx.enable();
     },
